@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BBall</title>
+    <link rel="icon" href="Assets/sd.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!----------- NAVIGATION ----------->
+    <nav class="navigation-bar">
+      <ul class="nav-list">
+        <img class='logo' src='Assets/sd.png'BEE.U LOGO'>
+        <li><a href="#section-home">HOME</a></li>
+        <li><a href="#section-about">ABOUT</a></li>
+        <li><a href="#section-contact">CONTACT</a></li>
+        <li>
+          <button
+            id="logoutButton"
+            style="
+              background: none;
+              border: none;
+              color: #f9f6ef;
+              cursor: pointer;
+            "
+          >
+            LOGOUT
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <br /><br />
+    <!----------- MAIN ----------->
+    <main>
+      <!----------- HEADER ----------->
+      <br />
+      <header class="main-header" id="section-home">
+        <h1 class="waviy">
+          <span style="--i: 1">C</span>
+          <span style="--i: 2">H</span>
+          <span style="--i: 3">A</span>
+          <span style="--i: 4">R</span>
+          <span style="--i: 5">L</span>
+          <span style="--i: 6">E</span>
+          <span style="--i: 7">S</span>
+          <span style="--i: 8">C</span>
+          <span style="--i: 9">A</span>
+          <span style="--i: 10">S</span>
+          <span style="--i: 11">I</span>
+          <span style="--i: 12">N</span>
+          <span style="--i: 13">G</span>
+          <span style="--i: 14">A</span>
+          <span style="--i: 14">L</span>
+        </h1>
+        <h2></h2>
+        <br />
+        <img src="Assets/profile pic.jpg" alt="profile-picture" /> <br />
+        <a href="Assets/ssssss.pdf">Download Resumé</a>
+        <p>
+          <br />
+          "It does not matter how slowly you go as long as you do not stop." -
+          Confucius
+        </p>
+      </header>
+
+      <!----------- SECTION 1 (ABOUT) ----------->
+      <section class="about" id="section-about">
+        <div class="about-statement">
+          <h2>ABOUT</h2>
+          <img src="Assets/basketball.jpg" alt="Bee.u Logo" />
+          <p>
+            SMILE EVERY MINUTE EVERY SECOND BEACUSE LIFE IS TOO SHORT <br />
+            CAN BEE U <br />
+          </p>
+        </div>
+        <div class="vision-statement">
+          <h3>Vision</h3>
+          <p>
+            We aim to be Asia's leading platform that create oppurtunity,
+            growth, <br />and impact in every community and the country around
+            the world.
+          </p>
+        </div>
+        <div class="mission-statement">
+          <h3>Mission</h3>
+          <p>
+            To empower every person, to create safe space and an endless <br />
+            ripples that touch lives.
+          </p>
+        </div>
+      </section>
+
+      <!----------- SECTION 4 (CONTACT) ----------->
+      <section class="contact" id="section-contact">
+        <h2>CONTACT</h2>
+        <form>
+          <fieldset class="">
+            <legend><strong>GET IN TOUCH</strong></legend>
+            <label for="name">Your Name: </label
+            ><input type="text" id="name" placeholder="First Name" required />
+            <input
+              type="text"
+              placeholder="Last Name"
+              name="last-name"
+              required
+            />
+            <br /><br />
+            <label for="email">Email Address: </label
+            ><input
+              type="email"
+              id="email"
+              placeholder="Email Address"
+              required
+            />
+            <br />
+            <br />
+            <label for="number">Phone Number: </label
+            ><input
+              type="tel"
+              id="number"
+              placeholder="Input your number"
+              required
+            />
+            <br /><br />
+            <label for="messages"
+              >Send us a message. We would like to hear from you.</label
+            ><br />
+            <textarea id="messages" cols="70" rows="5"></textarea> <br />
+            <input type="checkbox" /> Sign me up for email updates. <br /><br />
+            <input
+              type="submit"
+              name="submit"
+              value="Submit Form"
+              id="submit-form"
+            />
+          </fieldset>
+        </form>
+      </section>
+      <br /><br />
+    </main>
+
+    <footer class="main-footer">
+      <div class="list-footer">
+        <a href="https://www.linkedin.com/in/charles-angelo-casingal-a405322b0/"
+          ><img src="Assets/linkedin.png" alt="Linked-In Account" />
+        </a>
+        <a href="https://www.facebook.com/charles.casingal"
+          ><img src="Assets/facebook.png" alt="Faceboook Account" />
+        </a>
+        <a href="https://www.instagram.com/charlescasingal_kits/"
+          ><img src="Assets/instagram.png" alt="Instagram Account" />
+        </a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

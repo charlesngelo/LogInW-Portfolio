@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="LOGINSTYLE.css" />
+    <title>Login/Signup Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <h2 id="formTitle">Login</h2>
+        <form id="authForm" onsubmit="handleSubmit(event)">
+          <input type="text" id="username" placeholder="Username" required />
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <button type="submit">Submit</button>
+        </form>
+        <p id="toggleText">
+          create an account <span id="toggleForm">Sign Up</span>
+        </p>
+      </div>
+      <div class="image-container">
+        <img src="Assets/basketball1.jpg" alt="Another image" />
+      </div>
+    </div>
+
+    <script src="LOGINSCRIPT.js"></script>
+  </body>
+</html>
